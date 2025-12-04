@@ -31,47 +31,54 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-createPlatform(500, 0, 20, 600);
+createPlatform(100, 650, 5, 5);
+createPlatform(100, 450, 5, 5);
+createPlatform(80, 1, 5, 450);
+createPlatform(300, 570, 5, 5);
+createPlatform(320, 200, 5, 800);
+createPlatform(300, 360, 5, 5);
+createPlatform(100, 280, 5, 5);
+createPlatform(330, 280, 5, 5);
+createPlatform(400, 200, 5, 800);
+createPlatform(380, 380, 5, 5);
+createPlatform(330, 480, 5, 5);
+createPlatform(380, 580, 5, 5);
+createPlatform(330, 680, 5, 5);
+createPlatform(480, 680, 1, 1);
+createPlatform(580, 580, 1, 1);
+createPlatform(700, 200, 5, 800);
+createPlatform(680, 480, 1, 1);
+createPlatform(580, 380, 1, 1);
+createPlatform(680, 280, 1, 1);
+createPlatform(780, 280, 1, 1);
+createPlatform(900, 380, 1, 1);
+createPlatform(1000, 280, 1, 1);
+createPlatform(1160, 600, 1, 1);
+createPlatform(1300, 500, 1, 1);
+createPlatform(1200, 400, 1, 1);
+createPlatform(1300, 300, 1, 1);
+createPlatform(1150, 1, 5, 350);
+createPlatform(1000, 300, 5, 500);
 
-createPlatform(350, 200, 20, 800);
 
-createPlatform(250, 630, 100, 10, "lime");
 
-createPlatform(100, 1, 20, 600);
 
-createPlatform(100, 500, 100, 10, "lime");
 
-createPlatform(250, 375, 100, 10, "lime");
 
-createPlatform(100, 250, 100, 10, "lime");
 
-createPlatform(500, 700, 100, 50, "lime");
 
-createPlatform(600, 600, 100, 10, "lime");
 
-createPlatform(800, 550, 100, 10, "lime");
 
-createPlatform(600, 450, 100, 10, "lime");
-
-createPlatform(800, 350, 100, 10, "lime");
-
-createPlatform(600, 250, 100, 10, "lime");
-
-createPlatform(950, 600, 100, 10, "lime");
-
-createPlatform(1100, 650, 100, 10, "lime");
-
-createPlatform(800, 600, 20, 800);
     // TODO 3 - Create Collectables
-createCollectable("steve", 540, 50);
-createCollectable("steve", 300, 700,);
-createCollectable("steve", 1300, 700);
+createCollectable("steve", 360, 680);
+createCollectable("steve", 300, 150);
+createCollectable("steve", 1300, 100);
 
     
     // TODO 4 - Create Cannons
-createCannon("top", 280, 800);
-createCannon("right", 300, 2000);
-createCannon("top", 800, 800);
+createCannon("bottom", 200, 800);
+createCannon("right", 200, 2000);
+createCannon("top", 1320, 1000);
     
     
     //////////////////////////////////
