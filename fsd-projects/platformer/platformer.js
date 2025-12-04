@@ -79,7 +79,8 @@ createCollectable("steve", 1300, 100);
 createCannon("bottom", 200, 800);
 createCannon("right", 200, 2000);
 createCannon("top", 1320, 1000);
-    
+    createCannon("right", 640, 2000);
+
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
